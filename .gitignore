@@ -1,0 +1,41 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / notebook files
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Environment variables
+.env
+.env.*
+
+# Data files downloaded at runtime
+movies.csv
+*.csv
+
+# Model / embeddings artifacts
+*.pkl
+*.bin
+*.pt
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
